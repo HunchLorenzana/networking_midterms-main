@@ -1,0 +1,13 @@
+﻿<Solution>
+  <Project Path="Kitbash.csproj" />
+  <Project Path="FullscreenEditor.csproj" />
+  <Project Path="Kitbash.Tests.EditMode.csproj" />
+  <Project Path="AllIn13DShaderAssemebly.Editor.csproj" />
+  <Project Path="AllIn13DShaderDemoScriptsAssembly.csproj" />
+  <Project Path="Kamgam.UGUIWorldImage.csproj" />
+  <Project Path="Kitbash.Editor.csproj" />
+  <Project Path="Assembly-CSharp-firstpass.csproj" />
+  <Project Path="AllIn13DShaderAssemebly.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="Assembly-CSharp-Editor.csproj" />
+</Solution>

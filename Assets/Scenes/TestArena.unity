@@ -17703,6 +17703,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Btn_MainMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 5479793360073814103, guid: b90fc784b6e56d64a828c7ba745b45b4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9005848211746199752, guid: b90fc784b6e56d64a828c7ba745b45b4, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -19233,26 +19237,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40948570b76c832428a6d3ddd62b09f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MatchManager
-  lobbySpawnPoints:
-  - {fileID: 135914567}
-  - {fileID: 626325478}
-  - {fileID: 1020318793}
-  - {fileID: 343259829}
-  - {fileID: 1901823871}
-  - {fileID: 399624591}
-  trainingDummyPoints:
-  - {fileID: 474947722}
-  - {fileID: 770269371}
-  - {fileID: 541497558}
-  - {fileID: 1181433821}
-  - {fileID: 402993757}
-  walkingDummyPoints:
-  - {fileID: 292484273}
-  - {fileID: 1421954623}
-  - {fileID: 726948207}
-  - {fileID: 38815146}
-  - {fileID: 12102237}
-  - {fileID: 1009281091}
   statePrefab: {fileID: 6045728549984014124, guid: 05c86271624d1f4458c3ebdd97173593, type: 3}
   botPrefab: {fileID: 4155515991018040909, guid: d7cff4a41ee0bd143ac3815019ce8f71, type: 3}
   botRoster: {fileID: 11400000, guid: 8f1c4a7e2d9b4e63a5c0b7d1e9f24a56, type: 2}
@@ -34932,7 +34916,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &594721817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67992,6 +67976,38 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9cf719a1ae3bf624783a9eb4103973a0, type: 3}
   m_PrefabInstance: {fileID: 1143208706}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1148201283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050233062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c4e1a92b5d84f3e9a61c0d2e8f47b35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PracticeArea
+  spawnPoints:
+  - {fileID: 135914567}
+  - {fileID: 626325478}
+  - {fileID: 1020318793}
+  - {fileID: 343259829}
+  - {fileID: 1901823871}
+  - {fileID: 399624591}
+  trainingDummyPoints:
+  - {fileID: 474947722}
+  - {fileID: 770269371}
+  - {fileID: 541497558}
+  - {fileID: 1181433821}
+  - {fileID: 402993757}
+  walkingDummyPoints:
+  - {fileID: 292484273}
+  - {fileID: 1421954623}
+  - {fileID: 726948207}
+  - {fileID: 38815146}
+  - {fileID: 12102237}
+  - {fileID: 1009281091}
 --- !u!1001 &1148392699
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -91877,9 +91893,6 @@ MonoBehaviour:
   - {fileID: 1323136227}
   - {fileID: 153197141}
   - {fileID: 189316872}
-  _practiceSpawnPoints: []
-  _trainingDummyPoints: []
-  _walkingDummyPoints: []
   _trainController: {fileID: 1159691036}
 --- !u!1001 &1575460677
 PrefabInstance:
@@ -124692,35 +124705,3 @@ SceneRoots:
   - {fileID: 169412374}
   - {fileID: 478219331}
   - {fileID: 837748716}
---- !u!114 &1148201283
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2050233062}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c4e1a92b5d84f3e9a61c0d2e8f47b35, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PracticeArea
-  spawnPoints:
-  - {fileID: 135914567}
-  - {fileID: 626325478}
-  - {fileID: 1020318793}
-  - {fileID: 343259829}
-  - {fileID: 1901823871}
-  - {fileID: 399624591}
-  trainingDummyPoints:
-  - {fileID: 474947722}
-  - {fileID: 770269371}
-  - {fileID: 541497558}
-  - {fileID: 1181433821}
-  - {fileID: 402993757}
-  walkingDummyPoints:
-  - {fileID: 292484273}
-  - {fileID: 1421954623}
-  - {fileID: 726948207}
-  - {fileID: 38815146}
-  - {fileID: 12102237}
-  - {fileID: 1009281091}
