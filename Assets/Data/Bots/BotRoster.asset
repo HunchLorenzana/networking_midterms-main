@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b9d27e4a6c14f0b8e5a12d9c7f36e81, type: 3}
+  m_Name: BotRoster
+  m_EditorClassIdentifier: Assembly-CSharp::BotRoster
+  names:
+  - Kairosolo
+  - Makoto
+  - Vuinn
+  - Lumen
+  - ArcadeAce
+  - Tobi
+  - nyx
+  - Juno22
+  - Blitzer
+  - Rook
+  - PaoloG
+  - sunny
+  - Vexa
+  - Dex
+  - KiraKira
+  - Momo
+  - ZenMode
+  - Rafa
+  - Pixel
+  - Hiro
+  - Ollie
+  - Nova
+  - jaybee
+  - Sora
+  - Bruno
+  - Tala
+  - Cyrus
+  - Lia
+  - Gizmo
+  - Ember
+  - Taro
+  - Rin
+  - Marco_P
+  - Ivy
+  - Bastian
+  - Kodi
+  - Yuki
+  - Remy
+  - Nashy
+  - Ezra
+  presets:
+  - presetName: Tank
+    primaryWeaponId: 1004
+    secondaryWeaponId: 1002
+    preferredRangeFraction: 0.35
+  - presetName: Sniper
+    primaryWeaponId: 1003
+    secondaryWeaponId: 1005
+    preferredRangeFraction: 0.75
+  - presetName: Rusher
+    primaryWeaponId: 1005
+    secondaryWeaponId: 1006
+    preferredRangeFraction: 0.15
+  - presetName: Rifleman
+    primaryWeaponId: 1001
+    secondaryWeaponId: 1002
+    preferredRangeFraction: 0.45
+  - presetName: Gunslinger
+    primaryWeaponId: 1007
+    secondaryWeaponId: 1001
+    preferredRangeFraction: 0.3
+  - presetName: Demolition
+    primaryWeaponId: 1009
+    secondaryWeaponId: 1005
+    preferredRangeFraction: 0.5
+  - presetName: Bomber
+    primaryWeaponId: 1008
+    secondaryWeaponId: 1001
+    preferredRangeFraction: 0.5
+  difficulties:
+  - minTrophies: 0
+    reactionSeconds: 0.6
+    aimErrorDegrees: 9
+  - minTrophies: 300
+    reactionSeconds: 0.45
+    aimErrorDegrees: 6
+  - minTrophies: 800
+    reactionSeconds: 0.35
+    aimErrorDegrees: 4
+  - minTrophies: 1500
+    reactionSeconds: 0.25
+    aimErrorDegrees: 2.5

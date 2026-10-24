@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b8d997db2920e84da05fa0da1a6e1e6, type: 3}
+  m_Name: Rocket Launcher
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  displayName: Rocket Launcher
+  id: 1009
+  scrapPrice: 1500
+  isStarter: 0
+  damagePerPellet: 60
+  pelletCount: 1
+  fireInterval: 1
+  magazineSize: 3
+  reloadTime: 5
+  regenDelay: 0.6
+  fireMode: 1
+  spreadAngle: 0
+  range: 14
+  falloffStart: 0
+  falloffEnd: 0
+  projectileSpeed: 16
+  projectileRadius: 0.35
+  projectileLength: 0.9
+  bulletPrefab: {fileID: 8234703158980976365, guid: ed0908d51f683854dbc8c7a265790b4e, type: 3}
+  bulletScale: 1
+  explosive: 1
+  indicatorShape: 0
+  indicatorColor: {r: 1, g: 0.5, b: 0.2, a: 0.4}
+  indicatorWidth: 1.2
+  indicatorEndLength: 0
+  moveSpeedMultiplier: 0.9
+  damageTakenMultiplier: 1
+  reloadSpeedMultiplier: 1
+  spreadGrowthPerShot: 0
+  maxExtraSpread: 0
+  spreadRecoverPerSecond: 6
+  backstabAngle: 0
+  isMelee: 0
+  shotType: 0
+  throwRadius: 2.2
+  throwArcHeight: 3
+  thrownPrefab: {fileID: 0}
+  thrownScale: 1
+  explosionPrefab: {fileID: 180702, guid: a7c694f0877ea874fa57e033221095c3, type: 3}
+  explosionScale: 1
+  switchAnimation: 0
+  tracerColor: {r: 1, g: 0.6, b: 0.2, a: 1}
+  tracerWidth: 0.3
+  tracerLifetime: 0.06
+  tracerFades: 0
+  muzzleFlashPrefab: {fileID: 0}
+  muzzleFlashScale: 0.3
+  modelPrefab: {fileID: 1966699708693620645, guid: ce766091afbed684a8a0bb7e86962a44, type: 3}
+  modelOffset: {x: 0, y: -0.12, z: 0.39}
+  modelEuler: {x: 0, y: 180, z: 0}
+  modelScale: 2.5
+  muzzleOffset: {x: -0.0000000020954758, y: 0.01, z: -0.3152279}
+  hand: 0
+  mirrorModel: 0
+  extraGuns: []
+  extraFirePoints: []
+  firePattern: 0

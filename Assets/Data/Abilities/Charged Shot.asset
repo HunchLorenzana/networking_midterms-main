@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18878ec22d4576b498e59633d1b8a593, type: 3}
+  m_Name: Charged Shot
+  m_EditorClassIdentifier: Assembly-CSharp::AbilityData
+  displayName: Charged Shot
+  id: 2004
+  scrapPrice: 700
+  isStarter: 0
+  type: 3
+  cooldown: 14
+  duration: 8
+  magnitude: 1.5
+  secondaryMagnitude: 0
+  tertiaryMagnitude: 0
+  description: Your next shot within 8s does x1.5 damage (every pellet). Turns the
+    Sniper into a one-shot kill.

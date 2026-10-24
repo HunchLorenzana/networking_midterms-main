@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b8d997db2920e84da05fa0da1a6e1e6, type: 3}
+  m_Name: Frag Grenade
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  displayName: Frag Grenade
+  id: 1008
+  scrapPrice: 1500
+  isStarter: 0
+  damagePerPellet: 50
+  pelletCount: 1
+  fireInterval: 0.9
+  magazineSize: 3
+  reloadTime: 5
+  regenDelay: 0.6
+  fireMode: 1
+  spreadAngle: 0
+  range: 10
+  falloffStart: 0
+  falloffEnd: 0
+  projectileSpeed: 12
+  projectileRadius: 0.25
+  projectileLength: 0.5
+  bulletPrefab: {fileID: 0}
+  explosive: 0
+  indicatorShape: 3
+  indicatorColor: {r: 1, g: 0.3, b: 0.3, a: 0.35}
+  indicatorWidth: 0
+  indicatorEndLength: 0
+  moveSpeedMultiplier: 1
+  damageTakenMultiplier: 1
+  reloadSpeedMultiplier: 1
+  spreadGrowthPerShot: 0
+  maxExtraSpread: 0
+  spreadRecoverPerSecond: 6
+  backstabAngle: 0
+  isMelee: 0
+  shotType: 1
+  throwRadius: 2.5
+  throwArcHeight: 3
+  thrownPrefab: {fileID: 1725831004569797495, guid: a0ac73da131fb2242acbc5e8fd09164e, type: 3}
+  thrownScale: 2.1321936
+  explosionPrefab: {fileID: 180702, guid: a7c694f0877ea874fa57e033221095c3, type: 3}
+  explosionScale: 1
+  switchAnimation: 0
+  tracerColor: {r: 1, g: 0.9, b: 0.4, a: 1}
+  tracerWidth: 0.26
+  tracerLifetime: 0.06
+  tracerFades: 0
+  muzzleFlashPrefab: {fileID: 0}
+  muzzleFlashScale: 0.3
+  modelPrefab: {fileID: 4625600709905285468, guid: 8f5325614e0eca04da59f410b6ac9266, type: 3}
+  modelOffset: {x: 0, y: -0.08, z: 0.28}
+  modelEuler: {x: 0, y: 0, z: 0}
+  modelScale: 1.6583728
+  muzzleOffset: {x: 0, y: 0.18, z: 0}
+  hand: 2
+  mirrorModel: 0
+  extraGuns: []
+  extraFirePoints: []
+  firePattern: 0

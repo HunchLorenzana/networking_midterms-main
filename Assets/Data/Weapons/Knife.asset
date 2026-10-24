@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b8d997db2920e84da05fa0da1a6e1e6, type: 3}
+  m_Name: Knife
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  displayName: Knife
+  id: 1006
+  scrapPrice: 1200
+  isStarter: 0
+  damagePerPellet: 45
+  pelletCount: 1
+  fireInterval: 0.45
+  magazineSize: 10
+  reloadTime: 1.5
+  regenDelay: 0.6
+  fireMode: 0
+  spreadAngle: 0
+  range: 2.6
+  falloffStart: 0
+  falloffEnd: 0
+  projectileSpeed: 40
+  projectileRadius: 0.4
+  projectileLength: 0.1
+  indicatorShape: 0
+  indicatorColor: {r: 1, g: 1, b: 1, a: 0.4}
+  indicatorWidth: 1.6
+  indicatorEndLength: 0
+  moveSpeedMultiplier: 1.3
+  damageTakenMultiplier: 1
+  reloadSpeedMultiplier: 1.3
+  spreadGrowthPerShot: 0
+  maxExtraSpread: 0
+  spreadRecoverPerSecond: 6
+  backstabAngle: 60
+  isMelee: 1
+  switchAnimation: 0
+  tracerColor: {r: 1, g: 0.9, b: 0.4, a: 1}
+  tracerWidth: 0.06
+  tracerLifetime: 0.06
+  tracerFades: 0
+  muzzleFlashPrefab: {fileID: 0}
+  muzzleFlashScale: 0.4
+  modelPrefab: {fileID: 5245017733143943364, guid: 50920d25f97e8d249bdfd17da0e3e102, type: 3}
+  modelOffset: {x: 0, y: 0.1, z: 0.33}
+  modelEuler: {x: 0, y: 90, z: 52.12}
+  modelScale: 2
+  muzzleOffset: {x: 0, y: 0, z: 0}
+  hand: 0
+  mirrorModel: 0
+  extraGuns: []
+  extraFirePoints: []
+  firePattern: 0

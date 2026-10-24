@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f9daf3e288f60e4694ece49532548cb, type: 3}
+  m_Name: EconomyConfig
+  m_EditorClassIdentifier: Assembly-CSharp::EconomyConfig
+  startingScrap: 400
+  participationScrap: 30
+  winScrap: 20
+  killScrap: 2
+  killScrapCap: 20
+  assistScrap: 1
+  firstWinOfDayScrap: 50
+  trophyBrackets:
+  - minTrophies: 0
+    winTrophies: 12
+    lossTrophies: 0
+  - minTrophies: 100
+    winTrophies: 12
+    lossTrophies: 3
+  - minTrophies: 300
+    winTrophies: 11
+    lossTrophies: 5
+  - minTrophies: 700
+    winTrophies: 10
+    lossTrophies: 7
+  - minTrophies: 1200
+    winTrophies: 9
+    lossTrophies: 8
+  - minTrophies: 2000
+    winTrophies: 8
+    lossTrophies: 8
+  placementTrophies: 0c0000000900000006000000040000000200000000000000fefffffffcfffffffafffffff8ffffff
+  placementLossReference: 8
+  trophyRoadMilestones: 3200000064000000c80000005e010000f4010000ee020000e8030000dc050000d0070000b80b0000
+  rankedUnlockTrophies: 300

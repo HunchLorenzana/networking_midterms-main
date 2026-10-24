@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b8d997db2920e84da05fa0da1a6e1e6, type: 3}
+  m_Name: Rifle
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  displayName: Rifle
+  id: 1001
+  scrapPrice: 0
+  isStarter: 1
+  damagePerPellet: 12
+  pelletCount: 1
+  fireInterval: 0.125
+  magazineSize: 30
+  reloadTime: 1.8
+  regenDelay: 0.6
+  fireMode: 0
+  spreadAngle: 2
+  range: 18
+  falloffStart: 0
+  falloffEnd: 0
+  projectileSpeed: 28
+  projectileRadius: 0.25
+  projectileLength: 0.5
+  bulletPrefab: {fileID: 2653541426485521567, guid: 2e7a89f05df2a014792fdc486a150855, type: 3}
+  bulletScale: 1
+  explosive: 0
+  indicatorShape: 0
+  indicatorColor: {r: 1, g: 1, b: 1, a: 0.4}
+  indicatorWidth: 1
+  indicatorEndLength: 0
+  moveSpeedMultiplier: 1
+  damageTakenMultiplier: 1
+  reloadSpeedMultiplier: 1
+  spreadGrowthPerShot: 0.4
+  maxExtraSpread: 4
+  spreadRecoverPerSecond: 6
+  backstabAngle: 0
+  isMelee: 0
+  shotType: 0
+  throwRadius: 2.5
+  throwArcHeight: 3
+  thrownPrefab: {fileID: 0}
+  thrownScale: 1
+  explosionPrefab: {fileID: 0}
+  explosionScale: 1
+  switchAnimation: 0
+  tracerColor: {r: 1, g: 0.9, b: 0.4, a: 1}
+  tracerWidth: 0.16
+  tracerLifetime: 0.06
+  tracerFades: 0
+  muzzleFlashPrefab: {fileID: 7790606644849493849, guid: 7c5399af97edd5848ae015512f13f652, type: 3}
+  muzzleFlashScale: 0.4
+  modelPrefab: {fileID: 1718429227002443657, guid: 1aeaedb73fd2ef8469dae6f2954d03d4, type: 3}
+  modelOffset: {x: 0, y: 0, z: 0.48}
+  modelEuler: {x: 0, y: 180, z: 0}
+  modelScale: 1.6239792
+  muzzleOffset: {x: 3.4924598e-11, y: 0.05, z: -0.41972452}
+  hand: 0
+  mirrorModel: 0
+  extraGuns: []
+  extraFirePoints: []
+  firePattern: 0

@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b8d997db2920e84da05fa0da1a6e1e6, type: 3}
+  m_Name: Akimbo Pistols
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  displayName: Akimbo Pistols
+  id: 1007
+  scrapPrice: 1200
+  isStarter: 0
+  damagePerPellet: 6
+  pelletCount: 1
+  fireInterval: 0.07
+  magazineSize: 24
+  reloadTime: 1.8
+  regenDelay: 0.6
+  fireMode: 0
+  spreadAngle: 3
+  range: 9
+  falloffStart: 4
+  falloffEnd: 9
+  projectileSpeed: 25
+  projectileRadius: 0.22
+  projectileLength: 0.3
+  bulletPrefab: {fileID: 780826873192874511, guid: 2497687a499b635498460b5cb79cce49, type: 3}
+  bulletScale: 1
+  explosive: 0
+  indicatorShape: 0
+  indicatorColor: {r: 1, g: 1, b: 1, a: 0.4}
+  indicatorWidth: 1.6
+  indicatorEndLength: 0
+  moveSpeedMultiplier: 1.05
+  damageTakenMultiplier: 1
+  reloadSpeedMultiplier: 1
+  spreadGrowthPerShot: 0.3
+  maxExtraSpread: 3
+  spreadRecoverPerSecond: 8
+  backstabAngle: 0
+  isMelee: 0
+  shotType: 0
+  throwRadius: 2.5
+  throwArcHeight: 3
+  thrownPrefab: {fileID: 0}
+  thrownScale: 1
+  explosionPrefab: {fileID: 0}
+  explosionScale: 1
+  switchAnimation: 0
+  tracerColor: {r: 1, g: 0.9, b: 0.4, a: 1}
+  tracerWidth: 0.12
+  tracerLifetime: 0.06
+  tracerFades: 0
+  muzzleFlashPrefab: {fileID: 7790606644849493849, guid: 7c5399af97edd5848ae015512f13f652, type: 3}
+  muzzleFlashScale: 0.3
+  modelPrefab: {fileID: 548557289491351696, guid: fecadac73f5a85e4aaf71149d1d3d2d2, type: 3}
+  modelOffset: {x: 0.12, y: 0.18, z: 0.43}
+  modelEuler: {x: 0, y: 180, z: 0}
+  modelScale: 1.6662698
+  muzzleOffset: {x: -1.74623e-10, y: 0.013179995, z: -0.26009995}
+  hand: 2
+  mirrorModel: 0
+  extraGuns:
+  - hand: 1
+    modelPrefab: {fileID: 548557289491351696, guid: fecadac73f5a85e4aaf71149d1d3d2d2, type: 3}
+    modelOffset: {x: -0.12, y: 0.18, z: 0.43}
+    modelEuler: {x: 0, y: 180, z: 0}
+    modelScale: 1.6662698
+    mirrorModel: 1
+    muzzleOffset: {x: -1.74623e-10, y: 0.013179995, z: -0.26009995}
+  extraFirePoints: []
+  firePattern: 1
